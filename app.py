@@ -1,3 +1,9 @@
+# Ownership: The NFT buyer will have full and exclusive ownership rights to the code, including the right to access, use, modify, execute, and distribute the code for any purpose, including commercial use. 
+# Updates and Improvements: The buyer is entitled to all future updates and improvements made to the code, without any additional costs or restrictions.
+# License: The code is provided with an open-source license (e.g., MIT License) to ensure maximum flexibility for the buyer.
+
+# Note: The code is provided "as is" without warranties or guarantees of any kind.
+
 import pandas as pd
 import streamlit as st 
 from googleapiclient.discovery import build
