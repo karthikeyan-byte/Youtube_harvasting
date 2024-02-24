@@ -81,7 +81,7 @@ try:
         df.to_csv(output_file_path, index=False)      
 
         nextPageToken = None
-        max_pages = 100
+        max_pages = 10
         for _ in range(max_pages):
             # Request the playlist items with the current nextPageToken
             request = youtube.playlistItems().list(
