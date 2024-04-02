@@ -19,7 +19,7 @@ This Python script allows users to retrieve data from YouTube channels and perfo
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/youtube-data-analysis-tool.git
+    [git clone https://github.com/yourusername/youtube-data-analysis-tool.git](https://github.com/karthikeyan-byte/Youtube_harvasting)
     ```
 
 2. Install the required Python dependencies:
