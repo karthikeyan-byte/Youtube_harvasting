@@ -13,6 +13,18 @@ import numpy as np
 from datetime import timedelta
 import json
 from pymongo import MongoClient
+
+# Add Microsoft Clarity script
+st.components.v1.html("""
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "n8roid7se0");
+</script>
+""", height=0, width=0)
+
 # Set up the YouTube API service
 try:
         def apiconnect():
