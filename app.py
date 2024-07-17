@@ -16,7 +16,7 @@ from pymongo import MongoClient
 # Set up the YouTube API service
 try:
         def apiconnect():
-            api_key = 'AIzaSyC6jiYzEhJ3CASPU3gKAvrfpQXTfOYfXfk'
+            api_key = 'AIzaSyCALw18Wm4w08OxHpvbuuEqt4xy61eMi0w'
             api_service_name = "youtube"
             api_version = "v3"
             Youtube = build(api_service_name, api_version, developerKey=api_key)
