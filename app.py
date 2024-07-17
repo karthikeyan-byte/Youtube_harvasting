@@ -99,7 +99,7 @@ try:
             request = youtube.playlistItems().list(
                 part="snippet",
                 playlistId=playlist_id,
-                maxResults=10,
+                maxResults=15,
                 pageToken=nextPageToken  # Use the nextPageToken from the previous page
             )
 
