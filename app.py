@@ -28,7 +28,7 @@ st.components.v1.html("""
 # Set up the YouTube API service
 try:
         def apiconnect():
-            api_key = 'AIzaSyCALw18Wm4w08OxHpvbuuEqt4xy61eMi0w'
+            api_key = 'AIzaSyAlqSWhpi2pU_NszEkWs2qRJCdDAuUBXVA'
             api_service_name = "youtube"
             api_version = "v3"
             Youtube = build(api_service_name, api_version, developerKey=api_key)
